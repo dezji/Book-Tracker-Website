@@ -1,0 +1,137 @@
+body {
+    background: #2a2a2a;
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.main_container {
+    max-width: 600px;
+    height: 700px;
+    margin: auto;
+    background-color: white;
+    background-color: #ffffffce;
+    border-radius: 25px;
+    box-shadow: 10px 10px 12px#2a2a2a;
+    position: relative;
+}
+
+#welcome_banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 50px;
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Montserrat', sans-serif;
+    color: #07267a;
+    
+}
+
+
+#content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    margin-top: 115px;
+    width: 500px;
+    margin-left: 50px;
+    height: 550px;
+}
+
+
+
+#insert_form {
+    margin-top: 35px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 50px;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    font-weight: 900;
+    font-size: x-large;
+}
+
+select {
+    width: 65%;
+    height: 45px;
+    padding: 5px;
+    border: none;
+    font-size: x-large;
+    border-bottom: 3px solid #79787899;
+    transition: .7s;
+}
+select:hover {
+    cursor: pointer;
+}
+select:focus {
+    border-bottom: 3px solid #000000;
+    background-color: #afafaf5f;
+}
+select::-webkit-scrollbar {
+    width: 5px;
+}
+select::-webkit-scrollbar-thumb {
+    background-color: #00000043;
+}
+
+.userInput {
+    width: 60%;
+    height: 25px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    font-size: x-large;
+    border-bottom: 3px solid #79787899;
+    transition: .7s;
+}
+.userInput:focus {
+    border-bottom: 3px solid #000000;
+    background-color: #afafaf5f;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#insert_submit {
+    border: none;
+    border-radius: 50px;
+    background-color: #000000;
+    font-size: xx-large;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+}
+#insert_submit:hover {
+    background-color: #3e3e3e;
+}
+
+#submitCompleted {
+    margin-left: 180px;
+}
+
+#goBack {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+#goBackButton {
+    border: none;
+    background-color: transparent;
+    font-family: 'Raleway', sans-serif;
+    color: #000;
+    font-size: 14pt;
+    cursor: pointer;
+}

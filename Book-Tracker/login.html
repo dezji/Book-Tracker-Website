@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleSheets/login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:ital,wght@1,900&family=Racing+Sans+One&family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png"> <!--Icon Courtesy of https://www.flaticon.com/free-icons/books" title="books icons">Books icons created by Freepik - Flaticon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png"> <!--Icon Courtesy of https://www.flaticon.com/free-icons/books" title="books icons">Books icons created by Freepik - Flaticon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png"> <!--Icon Courtesy of https://www.flaticon.com/free-icons/books" title="books icons">Books icons created by Freepik - Flaticon -->
+    <link rel="manifest" href="icons/site.webmanifest"> <!--Icon Courtesy of https://www.flaticon.com/free-icons/books" title="books icons">Books icons created by Freepik - Flaticon -->
+    <title>Login</title>
+</head>
+<body>
+    <div class="welcome_banner">
+        <h1>Book Tracker</h1>
+    </div>
+    <div class="main_container">
+        <div class="login_container">
+            <label id="loginWelcome">Welcome back!</label>
+            <br><br>
+            <div id="login_form_container">
+                <form id="loginForm" action="userMain.html">
+                    <label for="username">Username:</label>
+                    <br>
+                    <input class="userInput" type="text" id="username" placeholder="admin" minlength="3" maxlength="15">
+                    <br><br><br><br>
+                    <label for="password">Password:</label>
+                    <br>
+                    <input class="userInput" type="password" id="password" minlength="8" maxlength="8">
+                    <br>
+                    <input type="submit" id="submitBtn" value="Login">
+                </form> <!-- end of loginForm -->
+                <div class="forgot_pass">
+                    <a href="#">Forgot Password?</a><br>
+                </div>
+                <div id="registerButton">
+                    <a href="register.html">Not already a user? Register here</a>
+                </div>
+                <div id="goBack">
+                    <button id="goBackButton" onclick="window.location.href='landing.html'">Go Back</button>
+                </div>
+            </div>
+        </div> <!-- end of login_container -->
+    </div> <!-- end of main container -->
+</body>
+</html>
